@@ -1,9 +1,15 @@
 import './App.css';
+import { AboutSection } from './components/About';
+import { HeroSection } from './components/Hero';
+import { Navbar } from './components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-     hello world
+    <Navbar/>
+    <HeroSection/>
+    <AboutSection/>
     </div>
   );
 }
