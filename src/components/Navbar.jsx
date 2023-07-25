@@ -1,63 +1,36 @@
-import styles from "../Styles/Navbar.module.css"
-import { Link } from "react-scroll"
-// import {Link} from "react-router-dom"
-export function Navbar() {
+import { Box, Flex, useColorMode,Text } from "@chakra-ui/react";
+import React from "react";
+import DefaultNavbar from "./Navbar/DefaultNavbar";
+import MobileNavbar from "./Navbar/MobileNavbar";
+import { NavLink } from "react-router-dom";
+
+function Navbar() {
+  const { colorMode } = useColorMode();
+
   return (
-    <div className={styles.root}id="nav-menu">
-      <Link
-        to="hero"
-        smooth={true}
-        duration={1000}
-        spy={true}
-        hashSpy={true}
-        activeClass={styles.active}
+    <Box
+      zIndex={5}
+      // border={"1px solid black"}
+      position={"sticky"}
+      top={0}
+      bgColor={colorMode === "light" ? "#f7f7f7" : "black"}
+    >
+      <Flex
+        h={"70px"}
+        justifyContent={"space-between"}
+        pl={["2", "2", "10"]}
+        // border={"1px solid red"}
+        alignItems={"center"}
       >
-        <div className={styles.navlogo}>
-          <img src="/logo.jpg" alt="" className={styles.logoimg} />
-        </div>
-      </Link>
-      <div className={styles.navsCont}>
-        <Link
-          to="about"
-          smooth={true}
-          duration={1000}
-          activeClass={styles.active}
-          spy={true}
-          hashSpy={true}
-        >
-          <div className={styles.nav}>About</div>
-        </Link>
-        <Link
-          to="skills"
-          smooth={true}
-          duration={1000}
-          activeClass={styles.active}
-          spy={true}
-          hashSpy={true}
-        >
-          <div className={styles.nav}>Skills</div>
-        </Link>
-        <Link
-          to="projects"
-          smooth={true}
-          duration={1000}
-          activeClass={styles.active}
-          spy={true}
-          hashSpy={true}
-        >
-          <div className={styles.nav}>Projects</div>
-        </Link>
-        <Link
-          to="contact"
-          smooth={true}
-          duration={1000}
-          activeClass={styles.active}
-          spy={true}
-          hashSpy={true}
-        >
-          <div className={styles.nav}>Contact</div>
-        </Link>
-      </div>
-    </div>
-  )
+        <NavLink to={"https://borsejugal23.github.io"}>
+          <Text fontSize='4xl'>Jugal</Text>
+        </NavLink>
+
+        <DefaultNavbar />
+        <MobileNavbar />
+      </Flex>
+    </Box>
+  );
 }
+
+export default Navbar;
