@@ -5,39 +5,41 @@ import {
   ProjectCards,
 } from "../components/Projects/ProjectCards";
 
-import busykids_one from "../images/busykids_one.png";
-import busykids_two  from "../images/busykids_two.png";
-import busykids_three  from "../images/busykids_three.png";
-import busykids_four  from "../images/busykids_four.png";
-import busykids_five  from "../images/busykids_five.png";
+import career_one from "../images/career-1.png";
+import career_two  from "../images/career-2.png";
+import career_three  from "../images/career-3.png";
+import career_four  from "../images/career-4.png";
+import career_five  from "../images/career-5.png";
 
-
-import food_one from "../images/food_one.png";
-import food_two  from "../images/food_two.png";
-import food_three  from "../images/food_three.png";
-import food_four  from "../images/food_four.png";
+import Ajio_one from "../images/Ajio_one.png";
+import Ajio_two  from "../images/Ajio_two.png";
+import Ajio_three  from "../images/Ajio_three.png";
+import Ajio_four  from "../images/Ajio_four.png";
+import Ajio_five  from "../images/Ajio_five.png";
 
 import shop_one from "../images/shop_one.png";
 import shop_two  from "../images/shop_two.png";
 import shop_three  from "../images/shop_three.png";
 import shop_four  from "../images/shop_four.png";
+import shop_five  from "../images/shop_five.png";
 
 
 const Projects = () => {
-  const busykids = [
- busykids_one ,
- busykids_two,
- busykids_three  ,
- busykids_four ,
- busykids_five ,
+  const career = [
+ career_one ,
+ career_two,
+ career_three  ,
+ career_four ,
+ career_five ,
 
   ];
 
-  const foodifinder=[
-    food_one ,
-    food_two,
-    food_three  ,
-    food_four ,
+  const Ajioifinder=[
+    Ajio_one ,
+    Ajio_two,
+    Ajio_three  ,
+    Ajio_four ,
+    Ajio_five,
     ]
 
     const shop=[
@@ -45,6 +47,7 @@ const Projects = () => {
       shop_two,
       shop_three  ,
       shop_four ,
+      shop_five
       ]
   return (
     <Box
@@ -72,33 +75,67 @@ const Projects = () => {
 
       <ProjectCards
         direction={"row-reverse"}
-        deployedLink={"https://energized-baseball-7687.vercel.app/"}
-        image={busykids}
-        title={"Busy Kids"}
-        subTitle={"virtual bank"}
-        GithubLink={"https://github.com/RoshanAAS/energized-baseball-7687"}
+        deployedLink={"https://pets-connect.vercel.app/"}
+        image={career}
+        title={"Petfinder"}
+        subTitle={"Pet Adopt"}
+        GithubLink={"https://github.com/borsejugal23/Pet_Connect"}
         features={[
-          "Signup and login The platform provides a user-friendly signup ",
-          "Searching filtring Functionality Users can search for specific Teacher",
-          "Real-time payment integration using Razer Pay.",
-          "Firebase Authentication is utilized for user authentication and authorization",
+          "Signup and login The platform provides a user-friendly signup",
+          "Searching filtring Functionality Users can filter for specific Colleges/Universities",
+          "User can get complete information of Colleges/Universities",
+          "Admin has access to update and delete the database"
         ]}
         description={
-          "Busy Kids is a virtual bank for kids, where you can teach them about the value of money in a safe environment. Kids will learn how to budget, save up for goals and spend responsibly using our cool easy-to-use app and website, while teachers have control over the students accounts and activities."
+          "Find World's Top Colleges/Universities suitable for you | Get Admission in Top Universities in Abroad | Get up to 100% Scholarship in Top Colleges/Universities."
         }
-        techStack={["React.js","Chakra UI", "FireBase", "Redux"]}
+        techStack={["React.js", "Redux","Chakra UI", "MongoDB"]}
       />
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
-          image={busykids}
-          deployedLink={"https://energized-baseball-7687.vercel.app/"}
-          GithubLink={"https://github.com/RoshanAAS/energized-baseball-7687"}
-          title={"Busy Kids"}
-          subTitle={"virtual bank"}
+          image={career}
+          deployedLink={"https://pets-connect.vercel.app/"}
+          GithubLink={"https://github.com/borsejugal23/Pet_Connect"}
+          title={"Petfinder"}
+          subTitle={"Pet Adopt"}
           description={
-            "Busy Kids is a virtual bank for kids, where you can teach them about the value of money in a safe environment. Kids will learn how to budget, save up for goals and spend responsibly using our cool easy-to-use app and website, while teachers have control over the students accounts and activities."
+            "Find World's Top Colleges/Universities suitable for you | Get Admission in Top Universities in Abroad | Get up to 100% Scholarship in Top Colleges/Universities."
           }
-          techStack={["React.js","Chakra UI", "FireBase", "Redux"]}
+          techStack={["React.js", "Redux","Chakra UI", "MongoDB"]}
+        />
+      </Show>
+
+
+
+      <ProjectCards
+        direction={"row-reverse"}
+        deployedLink={"https://effulgent-cucurucho-980cc9.netlify.app/"}
+        image={career}
+        title={"Career-Mantra"}
+        subTitle={"Education Platform"}
+        GithubLink={"https://github.com/borsejugal23/next-ray-854"}
+        features={[
+          "Signup and login The platform provides a user-friendly signup",
+          "Searching filtring Functionality Users can filter for specific Colleges/Universities",
+          "User can get complete information of Colleges/Universities",
+          "Admin has access to update and delete the database"
+        ]}
+        description={
+          "Find World's Top Colleges/Universities suitable for you | Get Admission in Top Universities in Abroad | Get up to 100% Scholarship in Top Colleges/Universities."
+        }
+        techStack={["React.js", "Redux","Chakra UI", "JavaScript"]}
+      />
+      <Show breakpoint="(max-width: 993px)">
+        <MediumProjectCard
+          image={career}
+          deployedLink={"https://effulgent-cucurucho-980cc9.netlify.app/"}
+          GithubLink={"https://github.com/borsejugal23/next-ray-854"}
+          title={"Career-Mantra"}
+          subTitle={"Education Platform"}
+          description={
+            "Find World's Top Colleges/Universities suitable for you | Get Admission in Top Universities in Abroad | Get up to 100% Scholarship in Top Colleges/Universities."
+          }
+          techStack={["React.js", "Redux","Chakra UI", "JavaScript"]}
         />
       </Show>
 
@@ -117,66 +154,70 @@ const Projects = () => {
 
       <ProjectCards
         direction={"row-reverse"}
-        deployedLink={"https://dark-van-7997-foodie-finder-abdul.netlify.app/"}
-        image={foodifinder}
-        title={"Foodie Finder"}
-        subTitle={"Food delivery"}
-        GithubLink={"https://github.com/Mahendra-mohane/dark-van-7997"}
-        features={[
-          "Signup and login The platform provides a user-friendly signup ",
-          "Searching filtring Functionality Users can search for specific Food",
-        ]}
-        description={
-           "Chick-fil-a is a convenient and easy-to-use website that allows customers to order food from their favorite restaurants."
-        }
-        techStack={["HTML","CSS", "Javascript"]}
-      />
-      <Show breakpoint="(max-width: 993px)">
-        <MediumProjectCard
-          image={foodifinder}
-          deployedLink={"https://dark-van-7997-foodie-finder-abdul.netlify.app/"}
-          GithubLink={"https://github.com/Mahendra-mohane/dark-van-7997"}
-          title={"Food delivery"}
-          subTitle={"Food"}
-          description={
-            "Busy Kids is a virtual bank for kids, where you can teach them about the value of money in a safe environment. Kids will learn how to budget, save up for goals and spend responsibly using our cool easy-to-use app and website, while teachers have control over the students accounts and activities."
-          }
-          techStack={["HTML","CSS", "Javascript"]}
-        />
-      </Show>
-
-
-
-
-
-
-      <ProjectCards
-        direction={"row-reverse"}
-        deployedLink={"https://spotty-butter-9254.netlify.app/"}
-        image={shop}
-        title={"ShopClues"}
+        deployedLink={"https://fascinating-kringle-49bd1e.netlify.app/"}
+        image={Ajioifinder}
+        title={"Ajio"}
         subTitle={"e-commerce"}
-        GithubLink={"https://github.com/ShubhangiSisodia/Shopclues-Clone"}
+        GithubLink={"https://github.com/borsejugal23/spectacular-self-7673"}
         features={[
           "Signup and login The platform provides a user-friendly signup ",
           "Searching filtring Functionality Users can search for specific Product",
-          "Add to cart Functionality Users can add product in cart.",
+          "Complete product details page, showing various sizes and different categories",
+          "cart page that will change dynamically according to the products available on cart",
+          "Checkout page which calculates the shipping prices dynamically",
+        ]}
+        description={
+           "Grab Your Favourite Styles Ranging from Clothing, Footwear And Accessories, Now at Ajio. Refresh Your Style With Latest Brands At Best Price From AJIO Only For You. Shop Now! Premium Brands. Claim Reliance One Points. Easy Returns. For Every Occasion."
+        }
+        techStack={["HTML","CSS", "Javascript","React.js"]}
+      />
+      <Show breakpoint="(max-width: 993px)">
+        <MediumProjectCard
+          image={Ajioifinder}
+          deployedLink={"https://fascinating-kringle-49bd1e.netlify.app/"}
+          GithubLink={"https://github.com/borsejugal23/spectacular-self-7673"}
+          title={"Ajio delivery"}
+          subTitle={"Ajio"}
+          description={
+            "Grab Your Favourite Styles Ranging from Clothing, Footwear And Accessories, Now at Ajio. Refresh Your Style With Latest Brands At Best Price From AJIO Only For You. Shop Now! Premium Brands. Claim Reliance One Points. Easy Returns. For Every Occasion."
+          }
+          techStack={["HTML","CSS", "Javascript","React.js"]}
+        />
+      </Show>
+
+
+
+
+
+
+      <ProjectCards
+        direction={"row-reverse"}
+        deployedLink={"https://quiet-cajeta-869443.netlify.app/"}
+        image={shop}
+        title={"Clothie's"}
+        subTitle={"e-commerce"}
+        GithubLink={"https://github.com/borsejugal23/Clothies"}
+        features={[
+          "Signup and login The platform provides a user-friendly signup ",
+          "Complete product details page, showing various sizes and different categories",
+          "cart page that will change dynamically according to the products available on cart",
+          "Checkout page which calculates the shipping prices dynamically",
          
         ]}
         description={
-          "The website features numerous categories, including mobiles and tablets, electronics, fashion and accessories, home and kitchen, automotive, sports and fitness, books, toys and baby care, and more. Customers can explore these categories and find products of their choice"
+          "Our goal is to make shopping for children's apparel and care items hassle-free and enjoyable, offering a wide selection of trendy clothes and practical products that cater to the unique needs of both parents and their precious children."
         }
         techStack={["HTML","CSS", "Javascript"]}
       />
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
           image={shop}
-          deployedLink={"https://spotty-butter-9254.netlify.app/"}
-          GithubLink={"https://github.com/ShubhangiSisodia/Shopclues-Clone"}
-          title={"ShopClues"}
+          deployedLink={"https://quiet-cajeta-869443.netlify.app/"}
+          GithubLink={"https://github.com/borsejugal23/Clothies"}
+          title={"Clothie's"}
           subTitle={"e-commerce"}
           description={
-            "The website features numerous categories, including mobiles and tablets, electronics, fashion and accessories, home and kitchen, automotive, sports and fitness, books, toys and baby care, and more. Customers can explore these categories and find products of their choice"
+            "Our goal is to make shopping for children's apparel and care items hassle-free and enjoyable, offering a wide selection of trendy clothes and practical products that cater to the unique needs of both parents and their precious children."
           }
           techStack={["HTML","CSS", "Javascript"]}
         />
@@ -190,7 +231,7 @@ const Projects = () => {
       {/* <ProjectCards
         direction={"row-reverse"}
         deployedLink={"https://energized-baseball-7687.vercel.app/"}
-        image={busykids}
+        image={career}
         title={"Busy Kids"}
         subTitle={"virtual bank"}
         GithubLink={"https://github.com/RoshanAAS/energized-baseball-7687"}
@@ -207,7 +248,7 @@ const Projects = () => {
       />
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
-          image={busykids}
+          image={career}
           deployedLink={"https://energized-baseball-7687.vercel.app/"}
           GithubLink={"https://github.com/RoshanAAS/energized-baseball-7687"}
           title={"Busy Kids"}

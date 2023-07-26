@@ -50,7 +50,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
       <GithubStats />
       <Contact />
     </Box>

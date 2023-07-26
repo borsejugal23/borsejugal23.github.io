@@ -118,7 +118,7 @@ const ProjectCards = ({
             {showFeatures && (
               <Box>
                 {features.map((feature, index) => (
-                  <Text key={index}>— {feature}</Text>
+                  <Text key={index}>~ {feature}</Text>
                 ))}
               </Box>
             )}
