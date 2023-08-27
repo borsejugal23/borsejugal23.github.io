@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d1be3cec.css",
-    "main.js": "/static/js/main.8aa3bcbf.js",
+    "main.js": "/static/js/main.29450359.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/career-1.png": "/static/media/career-1.3dab01e39fa6ebd776cb.png",
     "static/media/career-3.png": "/static/media/career-3.e0e9289d833083e28569.png",
@@ -21,8 +21,8 @@
     "static/media/shop_four.png": "/static/media/shop_four.f7220ed6b0153d0a5ddc.png",
     "static/media/petconnect_five.png": "/static/media/petconnect_five.8add8b3339431a1c742f.png",
     "static/media/career-5.png": "/static/media/career-5.cdec861f154202f6c109.png",
+    "static/media/Jugal-Borse-Resume.pdf": "/static/media/Jugal-Borse-Resume.a76093232a8bb964c931.pdf",
     "static/media/shop_three.png": "/static/media/shop_three.69b6a9ed25ed195e9aaf.png",
-    "static/media/Jugal-Borse-Resume.pdf": "/static/media/Jugal-Borse-Resume.4b5ad52ba8ec861d5caf.pdf",
     "static/media/jugal.img.jpg": "/static/media/jugal.img.07eb21e99144fad3a4e3.jpg",
     "static/media/Ajio_five.png": "/static/media/Ajio_five.7d73e5f37672a6443746.png",
     "static/media/mongobd_logo.png": "/static/media/mongobd_logo.911d600323e9c405d0db.png",
@@ -33,11 +33,11 @@
     "static/media/javascript_logo.png": "/static/media/javascript_logo.b593320c32e34a23f324.png",
     "index.html": "/index.html",
     "main.d1be3cec.css.map": "/static/css/main.d1be3cec.css.map",
-    "main.8aa3bcbf.js.map": "/static/js/main.8aa3bcbf.js.map",
+    "main.29450359.js.map": "/static/js/main.29450359.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1be3cec.css",
-    "static/js/main.8aa3bcbf.js"
+    "static/js/main.29450359.js"
   ]
 }
