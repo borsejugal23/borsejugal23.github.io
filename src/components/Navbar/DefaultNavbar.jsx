@@ -130,7 +130,7 @@ function DefaultNavbar() {
           download=""
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1EQrYO4iJCWda9_LrAxYttEXzl0UXRvG-/view?usp=sharing"
+              "https://drive.google.com/file/d/11_9JcqDJg3JXzK0qwzkjLg9hHGWROwUM/view?usp=sharing"
             );
           }}
         >

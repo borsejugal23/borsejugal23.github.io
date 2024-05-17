@@ -43,7 +43,7 @@ const About = () => {
           textAlign={{ base: "center", md: "left" }}
         >
           <Heading fontSize={{ base: "md", md: "2xl" }} mb={4}>
-            Hello, my name is Roshan Kr Routh
+            Hello, my name is Jugal Borse
           </Heading>
           <Text
             fontSize={{ base: "sm", md: "lg" }}

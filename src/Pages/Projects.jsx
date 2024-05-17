@@ -5,6 +5,12 @@ import {
   ProjectCards,
 } from "../components/Projects/ProjectCards";
 
+import petconnect_one from "../images/petconnect_one.png";
+import petconnect_two  from "../images/petconnect_two.png";
+import petconnect_three  from "../images/petconnect_three.png";
+import petconnect_four  from "../images/petconnect_four.png";
+import petconnect_five  from "../images/petconnect_five.png";
+
 import career_one from "../images/career-1.png";
 import career_two  from "../images/career-2.png";
 import career_three  from "../images/career-3.png";
@@ -25,6 +31,15 @@ import shop_five  from "../images/shop_five.png";
 
 
 const Projects = () => {
+
+  const petconnect=[
+    petconnect_one ,
+    petconnect_two,
+   petconnect_three  ,
+   petconnect_four ,
+   petconnect_five
+
+  ];
   const career = [
  career_one ,
  career_two,
@@ -76,30 +91,30 @@ const Projects = () => {
       <ProjectCards
         direction={"row-reverse"}
         deployedLink={"https://pets-connect.vercel.app/"}
-        image={career}
+        image={petconnect}
         title={"Petfinder"}
         subTitle={"Pet Adopt"}
         GithubLink={"https://github.com/borsejugal23/Pet_Connect"}
         features={[
-          "Signup and login The platform provides a user-friendly signup",
-          "Searching filtring Functionality Users can filter for specific Colleges/Universities",
-          "User can get complete information of Colleges/Universities",
-          "Admin has access to update and delete the database"
+          "The platform provides a user-friendly signup",
+          "sharing valuable information about pets habits and care",
+          "User can adopt pet animals like dogs and cats",
+          "Admin has access to Approve user adopt request and handle the database"
         ]}
         description={
-          "Find World's Top Colleges/Universities suitable for you | Get Admission in Top Universities in Abroad | Get up to 100% Scholarship in Top Colleges/Universities."
+          "The main goal of Petfinder is to help connect adoptable pets with potential adopters. It serves as a centralized database for animal shelters, rescue organizations, and individuals to list and promote pets that are available for adoption. By facilitating these connections, Petfinder aims to increase the chances of pets finding loving and permanent homes."
         }
         techStack={["React.js", "Redux","Chakra UI", "MongoDB"]}
       />
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
-          image={career}
+          image={petconnect}
           deployedLink={"https://pets-connect.vercel.app/"}
           GithubLink={"https://github.com/borsejugal23/Pet_Connect"}
           title={"Petfinder"}
           subTitle={"Pet Adopt"}
           description={
-            "Find World's Top Colleges/Universities suitable for you | Get Admission in Top Universities in Abroad | Get up to 100% Scholarship in Top Colleges/Universities."
+            "The main goal of Petfinder is to help connect adoptable pets with potential adopters. It serves as a centralized database for animal shelters, rescue organizations, and individuals to list and promote pets that are available for adoption. By facilitating these connections, Petfinder aims to increase the chances of pets finding loving and permanent homes."
           }
           techStack={["React.js", "Redux","Chakra UI", "MongoDB"]}
         />
@@ -109,13 +124,13 @@ const Projects = () => {
 
       <ProjectCards
         direction={"row-reverse"}
-        deployedLink={"https://effulgent-cucurucho-980cc9.netlify.app/"}
+        deployedLink={"https://careermantra.netlify.app/"}
         image={career}
         title={"Career-Mantra"}
         subTitle={"Education Platform"}
-        GithubLink={"https://github.com/borsejugal23/next-ray-854"}
+        GithubLink={"https://github.com/borsejugal23/CareerMantra"}
         features={[
-          "Signup and login The platform provides a user-friendly signup",
+          "The platform provides a user-friendly signup",
           "Searching filtring Functionality Users can filter for specific Colleges/Universities",
           "User can get complete information of Colleges/Universities",
           "Admin has access to update and delete the database"
@@ -128,8 +143,8 @@ const Projects = () => {
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
           image={career}
-          deployedLink={"https://effulgent-cucurucho-980cc9.netlify.app/"}
-          GithubLink={"https://github.com/borsejugal23/next-ray-854"}
+          deployedLink={"https://careermantra.netlify.app/"}
+          GithubLink={"https://github.com/borsejugal23/CareerMantra"}
           title={"Career-Mantra"}
           subTitle={"Education Platform"}
           description={
@@ -154,13 +169,13 @@ const Projects = () => {
 
       <ProjectCards
         direction={"row-reverse"}
-        deployedLink={"https://fascinating-kringle-49bd1e.netlify.app/"}
+        deployedLink={"https://ajio-com.vercel.app/"}
         image={Ajioifinder}
         title={"Ajio"}
         subTitle={"e-commerce"}
-        GithubLink={"https://github.com/borsejugal23/spectacular-self-7673"}
+        GithubLink={"https://github.com/borsejugal23/Ajio.com"}
         features={[
-          "Signup and login The platform provides a user-friendly signup ",
+          "The platform provides a user-friendly signup ",
           "Searching filtring Functionality Users can search for specific Product",
           "Complete product details page, showing various sizes and different categories",
           "cart page that will change dynamically according to the products available on cart",
@@ -174,10 +189,10 @@ const Projects = () => {
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
           image={Ajioifinder}
-          deployedLink={"https://fascinating-kringle-49bd1e.netlify.app/"}
-          GithubLink={"https://github.com/borsejugal23/spectacular-self-7673"}
-          title={"Ajio delivery"}
-          subTitle={"Ajio"}
+          deployedLink={"https://ajio-com.vercel.app/"}
+          GithubLink={"https://github.com/borsejugal23/Ajio.com"}
+          title={"Ajio"}
+          subTitle={"e-commerce"}
           description={
             "Grab Your Favourite Styles Ranging from Clothing, Footwear And Accessories, Now at Ajio. Refresh Your Style With Latest Brands At Best Price From AJIO Only For You. Shop Now! Premium Brands. Claim Reliance One Points. Easy Returns. For Every Occasion."
           }
@@ -192,13 +207,13 @@ const Projects = () => {
 
       <ProjectCards
         direction={"row-reverse"}
-        deployedLink={"https://quiet-cajeta-869443.netlify.app/"}
+        deployedLink={"https://clothie.netlify.app/"}
         image={shop}
         title={"Clothie's"}
         subTitle={"e-commerce"}
         GithubLink={"https://github.com/borsejugal23/Clothies"}
         features={[
-          "Signup and login The platform provides a user-friendly signup ",
+          "The platform provides a user-friendly signup ",
           "Complete product details page, showing various sizes and different categories",
           "cart page that will change dynamically according to the products available on cart",
           "Checkout page which calculates the shipping prices dynamically",
@@ -212,7 +227,7 @@ const Projects = () => {
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
           image={shop}
-          deployedLink={"https://quiet-cajeta-869443.netlify.app/"}
+          deployedLink={"https://clothie.netlify.app/"}
           GithubLink={"https://github.com/borsejugal23/Clothies"}
           title={"Clothie's"}
           subTitle={"e-commerce"}
@@ -236,7 +251,7 @@ const Projects = () => {
         subTitle={"virtual bank"}
         GithubLink={"https://github.com/RoshanAAS/energized-baseball-7687"}
         features={[
-          "Signup and login The platform provides a user-friendly signup ",
+          "The platform provides a user-friendly signup ",
           "Searching filtring Functionality Users can search for specific Teacher",
           "Real-time payment integration using Razer Pay.",
           "Firebase Authentication is utilized for user authentication and authorization",

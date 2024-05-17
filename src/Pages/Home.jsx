@@ -101,9 +101,7 @@ function Home() {
               "2xl": "55%",
             }}
           >
-            Aspiring Full Stack Web Developer who loves solving problems and
-            building projects. I am equipped with a variety of technologies and
-            tools to help me build the best possible product.
+            Highly skilled Full Stack Web Developer proficient in MERN stack. Experienced in delivering both solo and collaborative projects. Possesses strong technical acumen in front-end and back-end development, along with effective problem-solving and teamwork capabilities. Ready to contribute to cutting-edge web development endeavors.
           </Text>
           <Hide below="md">
             <AnimatedFlex
@@ -230,7 +228,7 @@ function Home() {
           download=""
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1EQrYO4iJCWda9_LrAxYttEXzl0UXRvG-/view?usp=sharing"
+              "https://drive.google.com/file/d/11_9JcqDJg3JXzK0qwzkjLg9hHGWROwUM/view?usp=sharing"
             );
           }}
         >
